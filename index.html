@@ -7,7 +7,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>Transit by TEMPLATED</title>
+		<title>vidhi pujan</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
@@ -16,6 +16,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script type="text/javascript"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -29,11 +30,22 @@
 				<h1><a href="index.html">VidhiPujan</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="pages/about.html">About</a></li>
-						<li><a href="pages/services.html">Services</a></li>
-						<li><a href="pages/astrology.html">Astrology</a></li>
-						<li><a href="pages/priestathome.html">Priest At Home</a></li>
-						<li><a href="#" class="button special">Sign Up/Sign In</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="services.html">
+							Services</a>
+						</li>
+						<!-- <li>
+							<div class="dropdown" style="color: rgba(255, 255, 255, 0.5);">
+								Services
+								<div class="dropdown-content">
+								  <a style="color: black;padding: 2px 16px !important;" href="services.html">Online</a>
+								  <a style="color: black;padding: 2px 16px !important;" href="services.html">Offline</a>
+								</div>
+							</div>
+						</li> -->
+						<li><a href="astrology.html">Astrology</a></li>
+						<li><a href="priestathome.html">Priest At Home</a></li>
+						<li><a href="signin.html" class="button special">Sign Up/Sign In</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -81,6 +93,33 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- Image -->
+			<section  id="one" class="wrapper  style1" >
+				<div class="container">
+					<section>
+						<h3>Testimony</h3>
+						<!-- <h4>Fit</h4> -->
+						<div class="box alt">
+							<div class="row 50% uniform">
+								<!-- <div class="12u$"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div> -->
+								<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic03.jpg" alt="" /></span></div>
+								<div class="4u"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+								<div class="4u$"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+							</div>
+						</div>
+	
+					</section>
+				</div>
+				
+			</section>
+			
 
 		<!-- Two -->
 			<section id="two" class="wrapper style2 special">
@@ -158,9 +197,9 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
-					<section class="links">
+					<!--<section class="links">
 						<div class="row">
-							<section class="3u 6u(medium) 12u$(small)">
+							 <section class="3u 6u(medium) 12u$(small)">
 								<h3>Lorem ipsum dolor</h3>
 								<ul class="unstyled">
 									<li><a href="#">Lorem ipsum dolor sit</a></li>
@@ -200,14 +239,14 @@
 									<li><a href="#">Explicabo molestiae dolor labore</a></li>
 								</ul>
 							</section>
-						</div>
-					</section>
+						</div> 
+					</section>-->
 					<div class="row">
 						<div class="8u 12u$(medium)">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li>
-								<li>Design: <a href="http://templated.co">TEMPLATED</a></li>
-								<li>Images: <a href="http://unsplash.com">Unsplash</a></li>
+								<li>&copy; VidhiPujan. All rights reserved.</li>
+								<!-- <li>Design: <a href="http://templated.co">TEMPLATED</a></li>
+								<li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
 							</ul>
 						</div>
 						<div class="4u$ 12u$(medium)">
@@ -230,5 +269,31 @@
 				</div>
 			</footer>
 
+
+
+
+
+
+		<script>
+			/* When the user clicks on the button, 
+			toggle between hiding and showing the dropdown content */
+			function myFunction() {
+				document.getElementById("myDropdown").classList.toggle("show");
+			}
+			
+			// Close the dropdown if the user clicks outside of it
+			window.onclick = function(event) {
+				if (!event.target.matches('.dropbtn')) {
+				var dropdowns = document.getElementsByClassName("dropdown-content");
+				var i;
+				for (i = 0; i < dropdowns.length; i++) {
+					var openDropdown = dropdowns[i];
+					if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+					}
+				}
+				}
+			}
+		</script>
 	</body>
 </html>

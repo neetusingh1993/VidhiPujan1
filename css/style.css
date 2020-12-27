@@ -1059,7 +1059,7 @@
 /* Wrapper */
 
 	.wrapper {
-		padding: 6em 0em 4em;
+		padding: 4em 0em 4em;
 		/* Style 1 Wrapper */
 		/* Style 2 Wrapper */
 		/* Style 3 Wrapper */
@@ -1217,3 +1217,36 @@
 		.grid-demo .row.flush > div:last-child span {
 			border-radius: 0 4px 4px 0;
 		}
+
+		.dropbtn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 16px;
+			font-size: 16px;
+			border: none;
+		  }
+		  
+		  .dropdown {
+			position: relative;
+			display: inline-block;
+		  }
+		  
+		  .dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: gray;
+			box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+		  }
+		  
+		  .dropdown-content a {
+			color: black;
+			padding: 2px 16px !important;
+			text-decoration: none;
+			display: block;
+		  }
+		  
+		  .dropdown-content a:hover {background-color: #ddd !important;}
+		  
+		  .dropdown:hover .dropdown-content {display: block !important;}
+		  
